@@ -25,17 +25,6 @@ document.addEventListener("click", (e) => {
       
     })
 
-    divEle.appendChild(delSpan)
-    console.log(`${delSpan} delspan is added`);
-    
-    console.log(divEle);
-
-    divEle.addEventListener("dblclick", () => {
-      const edit = divEle.innerText
-      
-    })
-
-
     const tasksList = closestCol.querySelector(".tasks");
     console.log(tasksList, "exists");
 
